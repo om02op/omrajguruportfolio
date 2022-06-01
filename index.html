@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Om Rajguru, A 15 year old boy, click to see what he can do, he has done!!">
     <meta name="author" content="">
 
     <title>Om Rajguru</title>
@@ -65,7 +65,7 @@
                     <div class="about-text">
                         <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
                         <h1 class="animated animated-text">
-                            <span class="mr-2">Hey folks, I'm</span>
+                            <span class="mr-2">Sup y'all?, I'm</span>
                                 <div class="animated-info">
                                     <span class="animated-item">Om Rajguru</span>
                                     <span class="animated-item">Video Editor</span>
@@ -91,32 +91,7 @@
             </div>
         </div>
     </section>
-
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
-        <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
-
-                      <div class="col-lg-8 mx-auto">
-                        <h2>Things I have designed so far</h2>
-                      </div>
-
-                      <div class="owl-carousel owl-theme">
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="/images/project/unknown.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-                        </div>
-                      </div>
-
-                  </div>
-                </div>
-        </div>
-    </section>
-
+    
     <!-- FEATURES -->
     <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
         <div class="container">
@@ -227,7 +202,7 @@
             <div class="contact-form">
               <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-              <form onsubmit="sendEmali(); reset(); return false;">
+              <form action="https://formspree.io/f/mknyyeyz" method="POST">
                 <div class="row">
                   <div class="col-lg-6 col-12">
                     <input type="text" class="form-control" name="name" placeholder="What's your name?" id="name">
@@ -253,24 +228,6 @@
       </div>
     </section>
 
-    <script>
-      function sendEmail(); {
-                Email.send({
-        Host : "smtp.gmail.com",
-        Username : "minecraftomislive@gmail.com",
-        Password : "password",
-        To : 'omrajguru05@gmail.com',
-        From : "document.getElementById('email').value",
-        Subject : "New contact form message",
-        Body : "Name" + document.getElementById("name")
-            + "Email" + document.getElementById("email")
-            + "Message" + document.getElementById("message") 
-    }).then(
-      message => alert(message)
-    );
-      }
-
-</script>
 </body>
 
     <!-- FOOTER -->
@@ -298,7 +255,5 @@
     <script>
       document.addEventListener('contextmenu', event => event.preventDefault());
     </script>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>
